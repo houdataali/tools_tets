@@ -1,0 +1,5 @@
+outs:
+- md5: fe550ac4f636596bf92daf26da2f7645
+  size: 67564190
+  isexec: true
+  path: bank_transactions.csv

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tools-test"
+version = "0.1.0"
+description = ""
+authors = ["houdataali <houdataali@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tools_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+dvc = "^2.53.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
